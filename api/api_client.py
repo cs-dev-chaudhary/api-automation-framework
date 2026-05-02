@@ -17,28 +17,28 @@ class APIClient:
         url = f"{self.base_url}{endpoint}"
         logger.info(f"Sending GET request to {url}")
         response = requests.get(url,headers=self.headers,timeout=self.timeout)
-        logger.info(f"GET response: {response.status_code}")
+        logger.info(f"GET response: {response.status_code} ({response.elapsed.total_seconds():.2f}s)")
         return response
     
     def post(self, endpoint, body):
         url = f"{self.base_url}{endpoint}"
         logger.info(f"Sending POST request to {url}")       
         response = requests.post(url, headers=self.headers, json=body, timeout=self.timeout)
-        logger.info(f"POST response: {response.status_code}")
+        logger.info(f"POST response: {response.status_code} ({response.elapsed.total_seconds():.2f}s)")
         return response
     
     def put(self, endpoint, body):
         url = f"{self.base_url}{endpoint}"
         logger.info(f"Sending PUT request to {url}")
         response = requests.put(url, headers=self.headers, json=body, timeout=self.timeout)
-        logger.info(f"PUT response: {response.status_code}")
+        logger.info(f"PUT response: {response.status_code} ({response.elapsed.total_seconds():.2f}s)")
         return response
     
     def delete(self, endpoint):
         url = f"{self.base_url}{endpoint}"
         logger.info(f"Sending DELETE request to {url}")
         response = requests.delete(url, headers=self.headers, timeout=self.timeout)
-        logger.info(f"DELETE response: {response.status_code}")
+        logger.info(f"DELETE response: {response.status_code} ({response.elapsed.total_seconds():.2f}s)")
         return response 
     
     def validate_schema(self, data, schema):

@@ -68,3 +68,8 @@ def test_created_post_has_id(created_post):
     assert "id"    in created_post
     assert "title" in created_post
     assert "body"  in created_post
+
+def test_response_time(client):
+    response = client.get("/users/1")
+    assert response.elapsed.total_seconds() < 2.0, f"Too slow: {response.elapsed.total_seconds():.2f}s"
+
