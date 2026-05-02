@@ -1,0 +1,4 @@
+{
+    "valid_users": [1, 2, 3],
+    "invalid_users": [99999, 99998]
+}
