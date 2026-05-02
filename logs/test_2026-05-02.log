@@ -286,3 +286,24 @@
 2026-05-02 23:46:53,406 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
 2026-05-02 23:46:53,407 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/1
 2026-05-02 23:46:53,961 | INFO | GET response: 200 (0.55s)
+2026-05-02 23:49:38,945 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-02 23:49:38,945 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/99999
+2026-05-02 23:49:39,395 | INFO | GET response: 404 (0.44s)
+2026-05-02 23:49:39,401 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-02 23:49:39,401 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/posts/99999
+2026-05-02 23:49:39,861 | INFO | GET response: 404 (0.46s)
+2026-05-02 23:50:44,429 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-02 23:50:44,429 | INFO | Sending POST request to https://jsonplaceholder.typicode.com/posts
+2026-05-02 23:50:45,153 | INFO | POST response: 201 (0.71s)
+2026-05-02 23:52:01,541 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-02 23:52:01,542 | INFO | Sending POST request to https://jsonplaceholder.typicode.com/posts
+2026-05-02 23:52:02,101 | INFO | POST response: 201 (0.55s)
+2026-05-02 23:57:36,789 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-02 23:57:36,790 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/1
+2026-05-02 23:57:37,272 | INFO | GET response: 200 (0.46s)
+2026-05-02 23:58:21,292 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-02 23:58:21,292 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/1
+2026-05-02 23:58:21,965 | INFO | GET response: 200 (0.63s)
+2026-05-02 23:58:47,084 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-02 23:58:47,085 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/nonexistent-endpoint-99999
+2026-05-02 23:58:47,904 | INFO | GET response: 404 (0.81s)

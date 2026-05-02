@@ -73,3 +73,29 @@ def test_response_time(client):
     response = client.get("/users/1")
     assert response.elapsed.total_seconds() < 2.0, f"Too slow: {response.elapsed.total_seconds():.2f}s"
 
+@pytest.mark.regression
+def test_get_nonexistent_user(client):
+    response = client.get("/users/99999")
+    assert response.status_code == 404
+
+@pytest.mark.regression
+def test_get_nonexistent_post(client):
+    response = client.get("/posts/99999")
+    assert response.status_code == 404
+
+@pytest.mark.regression
+def test_create_post_missing_title(client):
+    payload = {
+        "body":   "No title here",
+        "userId": 1
+    }
+    response = client.post("/posts", payload)
+    assert response.status_code == 201
+
+def test_get_user_with_retry(client):
+    response = client.get_with_retry("/users/1")
+    assert response.status_code == 200
+
+def test_retry_on_failure(client):
+    response = client.get_with_retry("/nonexistent-endpoint-99999", retries=3)
+    assert response.status_code == 404

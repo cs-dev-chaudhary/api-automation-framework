@@ -48,3 +48,13 @@ class APIClient:
         except jsonschema.ValidationError as e:
             logger.error(f"Schema validation FAILED: {e.message}")
             raise AssertionError(f"Schema validation failed: {e.message}")
+
+    def get_with_retry(self, endpoint, retries=3):
+        for attempt in range(1, retries + 1):
+            try:
+                response = self.get(endpoint)
+                return response
+            except Exception as e:
+                logger.warning(f"Attempt {attempt} failed: {e}")
+                if attempt == retries:
+                    raise
