@@ -2,6 +2,7 @@ import requests
 import pytest
 import json
 import os
+import allure
 
 def load_test_data():
     path = os.path.join(os.path.dirname(__file__), "..", "test_data", "users.json")
@@ -21,10 +22,17 @@ def test_valid_users_return_200(client, user_id):
     response = client.get(f"/users/{user_id}")
     assert response.status_code == 200
 
+
+
 @pytest.mark.smoke
+@allure.title("Verify GET /users/1 returns 200")
+@allure.description("Checks that the user endpoint is reachable and returns success")
 def test_get_user_returns_200(client):
-    response = client.get("/users/1")
-    assert response.status_code == 200
+    with allure.step("Send GET request to /users/1"):
+        response = client.get("/users/1")
+    with allure.step("Verify status code is 200"):
+        assert response.status_code == 200
+
 
 @pytest.mark.smoke
 def test_get_user_returns_data(client):
@@ -37,14 +45,20 @@ def test_get_user_correct_name(client):
     data = response.json()
     assert data["name"] == "Leanne Graham"
 
+@allure.title("Verify POST /posts creates a new post")
+@allure.description("Sends a POST request with title, body and userId and expects 201")
 def test_create_post(client):
-    payload = {
-        "title": "My first post",
-        "body": "Hello world",
-        "userId": 1
-    }
-    response = client.post("/posts",payload)
-    assert response.status_code == 201
+    with allure.step("Prepare post payload"):
+        payload = {
+            "title": "My first post",
+            "body": "Hello world",
+            "userId": 1
+        }
+    with allure.step("Send POST request to /posts"):
+        response = client.post("/posts", payload)
+    with allure.step("Verify status code is 201"):
+        assert response.status_code == 201
+
 
 @pytest.mark.regression
 def test_update_post(client):
