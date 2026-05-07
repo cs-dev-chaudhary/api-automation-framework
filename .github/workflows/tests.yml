@@ -29,5 +29,6 @@ jobs:
           echo "API_KEY=mysecretkey123" >> .env
 
       - name: Run tests
-        run: pytest --html=reports/report.html --self-contained-html -v
+        run: pytest -n 4 --html=reports/report.html --self-contained-html -v
+
 
