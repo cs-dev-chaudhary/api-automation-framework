@@ -19,7 +19,7 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install pytest requests python-dotenv jsonschema pytest-html pytest-xdist
+        run: pip install pytest allure-pytest requests python-dotenv jsonschema pytest-html pytest-xdist
 
 
       - name: Create .env file
