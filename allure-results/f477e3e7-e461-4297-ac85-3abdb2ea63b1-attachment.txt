@@ -1,0 +1,3 @@
+2026-05-06 20:46:22,978 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-06 20:46:22,978 | INFO | Sending DELETE request to https://jsonplaceholder.typicode.com/posts/1
+2026-05-06 20:46:23,519 | INFO | DELETE response: 200 (0.54s)

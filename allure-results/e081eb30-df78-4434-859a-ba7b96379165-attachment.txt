@@ -1,0 +1,7 @@
+2026-05-06 20:56:36,468 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-06 20:56:36,468 | INFO | Sending POST request to https://jsonplaceholder.typicode.com/posts
+2026-05-06 20:56:37,198 | INFO | POST response: 201 (0.73s)
+2026-05-06 20:56:37,198 | INFO | Setup: created post with id 101
+2026-05-06 20:56:37,201 | INFO | Teardown: deleting post 101
+2026-05-06 20:56:37,201 | INFO | Sending DELETE request to https://jsonplaceholder.typicode.com/posts/101
+2026-05-06 20:56:37,958 | INFO | DELETE response: 200 (0.75s)

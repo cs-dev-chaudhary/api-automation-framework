@@ -1,0 +1,3 @@
+[32mINFO    [0m APIClient:api_client.py:14 APIClient ready → https://jsonplaceholder.typicode.com
+[32mINFO    [0m APIClient:api_client.py:18 Sending GET request to https://jsonplaceholder.typicode.com/users/1
+[32mINFO    [0m APIClient:api_client.py:20 GET response: 200 (0.71s)

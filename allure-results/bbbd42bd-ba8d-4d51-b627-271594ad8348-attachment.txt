@@ -1,0 +1,6 @@
+[32mINFO    [0m conftest:conftest.py:15 Running against environment: default (.env)
+[32mINFO    [0m conftest:conftest.py:16 Base URL: https://jsonplaceholder.typicode.com
+[32mINFO    [0m APIClient:api_client.py:14 APIClient ready → https://jsonplaceholder.typicode.com
+[32mINFO    [0m APIClient:api_client.py:18 Sending GET request to https://jsonplaceholder.typicode.com/users/1
+[32mINFO    [0m APIClient:api_client.py:20 GET response: 200 (0.45s)
+[32mINFO    [0m APIClient:api_client.py:47 Schema validation PASSED

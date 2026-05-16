@@ -3,6 +3,8 @@ import pytest
 import json
 import os
 import allure
+import csv
+
 
 def load_test_data():
     path = os.path.join(os.path.dirname(__file__), "..", "test_data", "users.json")
@@ -113,3 +115,17 @@ def test_get_user_with_retry(client):
 def test_retry_on_failure(client):
     response = client.get_with_retry("/nonexistent-endpoint-99999", retries=3)
     assert response.status_code == 404
+
+def load_csv_data():
+    path = os.path.join(os.path.dirname(__file__), "..", "test_data", "users.csv")
+    with open(path) as f:
+        reader = csv.DictReader(f)
+        return [(int(row["user_id"]), int(row["expected_status"])) for row in reader]
+
+csv_data = load_csv_data()
+
+@pytest.mark.parametrize("user_id, expected_status", csv_data)
+def test_users_from_csv(client, user_id, expected_status):
+    response = client.get(f"/users/{user_id}")
+    assert response.status_code == expected_status
+

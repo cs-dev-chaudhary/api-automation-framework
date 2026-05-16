@@ -1,0 +1,7 @@
+[32mINFO    [0m APIClient:api_client.py:14 APIClient ready → https://jsonplaceholder.typicode.com
+[32mINFO    [0m APIClient:api_client.py:25 Sending POST request to https://jsonplaceholder.typicode.com/posts
+[32mINFO    [0m APIClient:api_client.py:27 POST response: 201 (0.78s)
+[32mINFO    [0m conftest:conftest.py:31 Setup: created post with id 101
+[32mINFO    [0m conftest:conftest.py:33 Teardown: deleting post 101
+[32mINFO    [0m APIClient:api_client.py:39 Sending DELETE request to https://jsonplaceholder.typicode.com/posts/101
+[32mINFO    [0m APIClient:api_client.py:41 DELETE response: 200 (0.55s)

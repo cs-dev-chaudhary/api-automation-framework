@@ -1,0 +1,213 @@
+2026-05-07 22:17:05,652 | INFO | Running against environment: default (.env)
+2026-05-07 22:17:05,652 | INFO | Running against environment: default (.env)
+2026-05-07 22:17:05,652 | INFO | Running against environment: default (.env)
+2026-05-07 22:17:05,652 | INFO | Base URL: https://jsonplaceholder.typicode.com
+2026-05-07 22:17:05,652 | INFO | Base URL: https://jsonplaceholder.typicode.com
+2026-05-07 22:17:05,652 | INFO | Base URL: https://jsonplaceholder.typicode.com
+2026-05-07 22:17:05,652 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:05,652 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:05,652 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:05,652 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/3
+2026-05-07 22:17:05,652 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/1
+2026-05-07 22:17:05,652 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/2
+2026-05-07 22:17:05,652 | INFO | Running against environment: default (.env)
+2026-05-07 22:17:05,652 | INFO | Base URL: https://jsonplaceholder.typicode.com
+2026-05-07 22:17:05,652 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:05,653 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/1
+2026-05-07 22:17:06,131 | INFO | GET response: 200 (0.46s)
+2026-05-07 22:17:06,136 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:06,137 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/2
+2026-05-07 22:17:06,291 | INFO | GET response: 200 (0.62s)
+2026-05-07 22:17:06,297 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:06,297 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/1
+2026-05-07 22:17:06,303 | INFO | GET response: 200 (0.63s)
+2026-05-07 22:17:06,306 | INFO | Schema validation PASSED
+2026-05-07 22:17:06,309 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:06,309 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/1
+2026-05-07 22:17:06,364 | INFO | GET response: 200 (0.70s)
+2026-05-07 22:17:06,368 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:06,369 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/3
+2026-05-07 22:17:06,769 | INFO | GET response: 200 (0.63s)
+2026-05-07 22:17:06,775 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:06,776 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/1
+2026-05-07 22:17:06,921 | INFO | GET response: 200 (0.62s)
+2026-05-07 22:17:06,929 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:06,930 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/1
+2026-05-07 22:17:06,979 | INFO | GET response: 200 (0.61s)
+2026-05-07 22:17:06,980 | INFO | GET response: 200 (0.67s)
+2026-05-07 22:17:06,983 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:06,984 | INFO | Sending PUT request to https://jsonplaceholder.typicode.com/posts/1
+2026-05-07 22:17:06,984 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:06,985 | INFO | Sending POST request to https://jsonplaceholder.typicode.com/posts
+2026-05-07 22:17:07,417 | INFO | GET response: 200 (0.48s)
+2026-05-07 22:17:07,423 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:07,424 | INFO | Sending POST request to https://jsonplaceholder.typicode.com/posts
+2026-05-07 22:17:07,469 | INFO | GET response: 200 (0.69s)
+2026-05-07 22:17:07,474 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:07,475 | INFO | Sending DELETE request to https://jsonplaceholder.typicode.com/posts/1
+2026-05-07 22:17:07,559 | INFO | POST response: 201 (0.57s)
+2026-05-07 22:17:07,563 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:07,564 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/99999
+2026-05-07 22:17:07,962 | INFO | PUT response: 200 (0.98s)
+2026-05-07 22:17:07,969 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:07,970 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/1
+2026-05-07 22:17:07,974 | INFO | POST response: 201 (0.55s)
+2026-05-07 22:17:07,974 | INFO | Setup: created post with id 101
+2026-05-07 22:17:07,976 | INFO | Teardown: deleting post 101
+2026-05-07 22:17:07,976 | INFO | Sending DELETE request to https://jsonplaceholder.typicode.com/posts/101
+2026-05-07 22:17:08,031 | INFO | DELETE response: 200 (0.55s)
+2026-05-07 22:17:08,036 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:08,037 | INFO | Sending POST request to https://jsonplaceholder.typicode.com/posts
+2026-05-07 22:17:08,200 | INFO | GET response: 404 (0.63s)
+2026-05-07 22:17:08,205 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:08,206 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/1
+2026-05-07 22:17:08,422 | INFO | GET response: 200 (0.45s)
+2026-05-07 22:17:08,428 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:08,428 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/nonexistent-endpoint-99999
+2026-05-07 22:17:08,526 | INFO | DELETE response: 200 (0.55s)
+2026-05-07 22:17:08,533 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:08,534 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/posts/99999
+2026-05-07 22:17:08,584 | INFO | POST response: 201 (0.54s)
+2026-05-07 22:17:08,851 | INFO | GET response: 200 (0.64s)
+2026-05-07 22:17:09,167 | INFO | GET response: 404 (0.63s)
+2026-05-07 22:17:09,191 | INFO | GET response: 404 (0.76s)
+2026-05-07 22:17:43,488 | INFO | Running against environment: default (.env)
+2026-05-07 22:17:43,488 | INFO | Base URL: https://jsonplaceholder.typicode.com
+2026-05-07 22:17:43,488 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:43,488 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/1
+2026-05-07 22:17:43,950 | INFO | GET response: 200 (0.45s)
+2026-05-07 22:17:43,954 | INFO | Schema validation PASSED
+2026-05-07 22:17:43,958 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:43,958 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/1
+2026-05-07 22:17:44,643 | INFO | GET response: 200 (0.68s)
+2026-05-07 22:17:44,648 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:44,648 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/2
+2026-05-07 22:17:45,288 | INFO | GET response: 200 (0.64s)
+2026-05-07 22:17:45,289 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:45,289 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/3
+2026-05-07 22:17:45,746 | INFO | GET response: 200 (0.46s)
+2026-05-07 22:17:45,753 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:45,754 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/1
+2026-05-07 22:17:46,220 | INFO | GET response: 200 (0.46s)
+2026-05-07 22:17:46,225 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:46,225 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/2
+2026-05-07 22:17:46,690 | INFO | GET response: 200 (0.46s)
+2026-05-07 22:17:46,696 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:46,697 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/3
+2026-05-07 22:17:47,168 | INFO | GET response: 200 (0.47s)
+2026-05-07 22:17:47,173 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:47,173 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/1
+2026-05-07 22:17:47,640 | INFO | GET response: 200 (0.46s)
+2026-05-07 22:17:47,646 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:47,646 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/1
+2026-05-07 22:17:48,336 | INFO | GET response: 200 (0.69s)
+2026-05-07 22:17:48,340 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:48,340 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/1
+2026-05-07 22:17:48,967 | INFO | GET response: 200 (0.62s)
+2026-05-07 22:17:48,970 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:48,970 | INFO | Sending POST request to https://jsonplaceholder.typicode.com/posts
+2026-05-07 22:17:49,525 | INFO | POST response: 201 (0.55s)
+2026-05-07 22:17:49,530 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:49,531 | INFO | Sending PUT request to https://jsonplaceholder.typicode.com/posts/1
+2026-05-07 22:17:50,255 | INFO | PUT response: 200 (0.72s)
+2026-05-07 22:17:50,259 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:50,259 | INFO | Sending DELETE request to https://jsonplaceholder.typicode.com/posts/1
+2026-05-07 22:17:50,810 | INFO | DELETE response: 200 (0.55s)
+2026-05-07 22:17:50,815 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:50,815 | INFO | Sending POST request to https://jsonplaceholder.typicode.com/posts
+2026-05-07 22:17:51,536 | INFO | POST response: 201 (0.72s)
+2026-05-07 22:17:51,537 | INFO | Setup: created post with id 101
+2026-05-07 22:17:51,539 | INFO | Teardown: deleting post 101
+2026-05-07 22:17:51,539 | INFO | Sending DELETE request to https://jsonplaceholder.typicode.com/posts/101
+2026-05-07 22:17:52,312 | INFO | DELETE response: 200 (0.77s)
+2026-05-07 22:17:52,318 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:52,319 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/1
+2026-05-07 22:17:52,783 | INFO | GET response: 200 (0.46s)
+2026-05-07 22:17:52,788 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:52,789 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/99999
+2026-05-07 22:17:53,252 | INFO | GET response: 404 (0.46s)
+2026-05-07 22:17:53,256 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:53,257 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/posts/99999
+2026-05-07 22:17:53,939 | INFO | GET response: 404 (0.68s)
+2026-05-07 22:17:53,941 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:53,941 | INFO | Sending POST request to https://jsonplaceholder.typicode.com/posts
+2026-05-07 22:17:54,487 | INFO | POST response: 201 (0.54s)
+2026-05-07 22:17:54,492 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:54,492 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/1
+2026-05-07 22:17:54,955 | INFO | GET response: 200 (0.46s)
+2026-05-07 22:17:54,959 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:17:54,960 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/nonexistent-endpoint-99999
+2026-05-07 22:17:55,594 | INFO | GET response: 404 (0.63s)
+2026-05-07 22:18:21,011 | INFO | Running against environment: default (.env)
+2026-05-07 22:18:21,011 | INFO | Running against environment: default (.env)
+2026-05-07 22:18:21,011 | INFO | Running against environment: default (.env)
+2026-05-07 22:18:21,012 | INFO | Base URL: https://jsonplaceholder.typicode.com
+2026-05-07 22:18:21,012 | INFO | Base URL: https://jsonplaceholder.typicode.com
+2026-05-07 22:18:21,012 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:18:21,012 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:18:21,012 | INFO | Base URL: https://jsonplaceholder.typicode.com
+2026-05-07 22:18:21,012 | INFO | Running against environment: default (.env)
+2026-05-07 22:18:21,012 | INFO | Base URL: https://jsonplaceholder.typicode.com
+2026-05-07 22:18:21,012 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:18:21,012 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/1
+2026-05-07 22:18:21,012 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/2
+2026-05-07 22:18:21,012 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:18:21,012 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/1
+2026-05-07 22:18:21,013 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/3
+2026-05-07 22:18:21,483 | INFO | GET response: 200 (0.46s)
+2026-05-07 22:18:21,487 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:18:21,488 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/3
+2026-05-07 22:18:21,648 | INFO | GET response: 200 (0.63s)
+2026-05-07 22:18:21,649 | INFO | GET response: 200 (0.63s)
+2026-05-07 22:18:21,650 | INFO | GET response: 200 (0.63s)
+2026-05-07 22:18:21,653 | INFO | Schema validation PASSED
+2026-05-07 22:18:21,656 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:18:21,656 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:18:21,657 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/2
+2026-05-07 22:18:21,657 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/1
+2026-05-07 22:18:21,658 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:18:21,659 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/1
+2026-05-07 22:18:22,121 | INFO | GET response: 200 (0.46s)
+2026-05-07 22:18:22,122 | INFO | GET response: 200 (0.46s)
+2026-05-07 22:18:22,124 | INFO | GET response: 200 (0.46s)
+2026-05-07 22:18:22,126 | INFO | GET response: 200 (0.64s)
+2026-05-07 22:18:22,128 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:18:22,128 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:18:22,129 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/1
+2026-05-07 22:18:22,129 | INFO | Sending POST request to https://jsonplaceholder.typicode.com/posts
+2026-05-07 22:18:22,131 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:18:22,132 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:18:22,133 | INFO | Sending PUT request to https://jsonplaceholder.typicode.com/posts/1
+2026-05-07 22:18:22,133 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/1
+2026-05-07 22:18:22,695 | INFO | POST response: 201 (0.56s)
+2026-05-07 22:18:22,701 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:18:22,702 | INFO | Sending DELETE request to https://jsonplaceholder.typicode.com/posts/1
+2026-05-07 22:18:22,813 | INFO | GET response: 200 (0.68s)
+2026-05-07 22:18:22,818 | INFO | GET response: 200 (0.68s)
+2026-05-07 22:18:22,819 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:18:22,820 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/99999
+2026-05-07 22:18:22,823 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:18:22,824 | INFO | Sending POST request to https://jsonplaceholder.typicode.com/posts
+2026-05-07 22:18:22,859 | INFO | PUT response: 200 (0.72s)
+2026-05-07 22:18:22,863 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:18:22,864 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/1
+2026-05-07 22:18:23,291 | INFO | GET response: 404 (0.47s)
+2026-05-07 22:18:23,298 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:18:23,299 | INFO | Sending POST request to https://jsonplaceholder.typicode.com/posts
+2026-05-07 22:18:23,432 | INFO | DELETE response: 200 (0.73s)
+2026-05-07 22:18:23,438 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:18:23,439 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/posts/99999
+2026-05-07 22:18:23,494 | INFO | GET response: 200 (0.63s)
+2026-05-07 22:18:23,498 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:18:23,499 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/nonexistent-endpoint-99999
+2026-05-07 22:18:23,617 | INFO | POST response: 201 (0.79s)
+2026-05-07 22:18:23,617 | INFO | Setup: created post with id 101
+2026-05-07 22:18:23,619 | INFO | Teardown: deleting post 101
+2026-05-07 22:18:23,619 | INFO | Sending DELETE request to https://jsonplaceholder.typicode.com/posts/101
+2026-05-07 22:18:24,027 | INFO | POST response: 201 (0.72s)
+2026-05-07 22:18:24,066 | INFO | GET response: 404 (0.62s)
+2026-05-07 22:18:24,129 | INFO | GET response: 404 (0.63s)
+2026-05-07 22:18:24,168 | INFO | DELETE response: 200 (0.55s)
+2026-05-07 22:18:24,170 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-07 22:18:24,170 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/1
+2026-05-07 22:18:24,803 | INFO | GET response: 200 (0.63s)

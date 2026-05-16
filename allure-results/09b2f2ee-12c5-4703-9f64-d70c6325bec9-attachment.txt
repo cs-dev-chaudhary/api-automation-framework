@@ -1,0 +1,3 @@
+[32mINFO    [0m APIClient:api_client.py:14 APIClient ready → https://jsonplaceholder.typicode.com
+[32mINFO    [0m APIClient:api_client.py:25 Sending POST request to https://jsonplaceholder.typicode.com/posts
+[32mINFO    [0m APIClient:api_client.py:27 POST response: 201 (0.56s)

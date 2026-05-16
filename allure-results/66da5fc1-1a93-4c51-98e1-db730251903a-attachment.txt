@@ -1,0 +1,3 @@
+2026-05-06 20:46:15,773 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-06 20:46:15,775 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/1
+2026-05-06 20:46:16,413 | INFO | GET response: 200 (0.64s)

@@ -1,0 +1,6 @@
+2026-05-06 20:46:15,284 | INFO | Running against environment: default (.env)
+2026-05-06 20:46:15,284 | INFO | Base URL: https://jsonplaceholder.typicode.com
+2026-05-06 20:46:15,284 | INFO | APIClient ready → https://jsonplaceholder.typicode.com
+2026-05-06 20:46:15,285 | INFO | Sending GET request to https://jsonplaceholder.typicode.com/users/1
+2026-05-06 20:46:15,761 | INFO | GET response: 200 (0.46s)
+2026-05-06 20:46:15,766 | INFO | Schema validation PASSED
